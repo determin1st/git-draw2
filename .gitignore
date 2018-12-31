@@ -1,4 +1,6 @@
 *.vim
 *.swp
 *.js
+*.sh
+*.bat
 
