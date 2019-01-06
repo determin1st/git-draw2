@@ -1,36 +1,33 @@
-# Git Draw
+# Git Draw 2
+
 Allows you to draw in your GitHub heatmap
+Inspired by [git-draw](https://github.com/gelstudios/gitfiti)
 
-![demo-vid](https://github.com/ben174/git-draw/raw/master/media/demo-video.gif)
+## Requirements
+
+* [GitHub account](https://github.com/join)
+* [git command-line](https://git-scm.com/downloads)
+* [node.js runtime](https://nodejs.org)
+* [Chrome web-browser](https://www.google.com/chrome)
+* [git-draw2 extention for Chrome](https://chrome.google.com/webstore/detail/git-draw2)
+
+## How to draw
+
+* Create empty, disposable repository on GitHub.
+* Go to your GitHub account start page.
+* Use installed extention to "Draw".
+* When you finish, "Get script".
+* Run script with node.js.
+* Done.
+
+## How to erase drawing
+
+* Delete the repository with drawing.
+* Done.
+
+## How it works
 
 
-##### Created by Ben Friedland - http://www.bugben.com
 
 
-This is a Chrome extension which will allow you to freely draw on your GitHub
-heatmap. You can then export your drawing to a script containing a git commit
-log. Once you've run and pushed this script to a new repository, your commit
-log will match the drawing you made.
 
-Download the extension here: 
-
-https://chrome.google.com/webstore/detail/git-draw/aapcmdackhlfobmkcpplkjpfceihngkh?hl=en-US&gl=US
-
-## Instructional Video
-
-My Brother, Rich Friedland, made a comprehensive video on how to use the extension.
-
-https://www.youtube.com/watch?v=ptzDfPZ--Qk
-
-
-## Why not a bookmarklet?
-
-Because CSP. GitHub's CSP policy makes a bookmarklet next to impossible.
-There's a workaround involving injecting code into a canvas and then executing
-it from there, but that feels like something that'll be fixed. A Chrome extension
-makes it easier. Once you're done making your drawing, just uninstall the extension.
-
-## Acknowledgements
-
-GitFiti: https://github.com/gelstudios/gitfiti - got the idea from here, and 
-poked around their src to see how they were writing commit messages.
