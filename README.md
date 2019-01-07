@@ -1,7 +1,7 @@
 # Git Draw 2
 
 Allows you to draw in your GitHub heatmap.  
-Inspired by [git-draw](https://github.com/gelstudios/gitfiti)  
+Inspired by [git-draw](https://github.com/ben174/git-draw)  
 
 ## Requirements
 
@@ -11,7 +11,7 @@ Inspired by [git-draw](https://github.com/gelstudios/gitfiti)
 * [Chrome](https://www.google.com/chrome)
 * git-draw2 extention (un-published)
   * [download and unpack the archive](https://github.com/determin1st/git-draw2/blob/master/git-draw2.7z).
-  * open Chrome, goto [extentions](chrome://extensions/).
+  * open Chrome and goto [extentions](chrome://extensions).
   * switch to developer mode.
   * install unpacked extention.
   * if you manage to publish it, [drop me a link](https://t.me/determin1st), pls.
@@ -44,10 +44,8 @@ Inspired by [git-draw](https://github.com/gelstudios/gitfiti)
 
 * Delete the repository with the drawing.
   * goto repository settings, at the bottom
+  * confirm
 * Done.
-
-
-
 
 
 
