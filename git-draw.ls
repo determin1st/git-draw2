@@ -69,7 +69,6 @@ THREAD = (chain) -> # {{{
 DATA =
 	pre: 'git-draw2> '
 	url: 'https://github.com/'+username+'/'+repo
-###
 THREAD [
 	(resolve) !->
 		# display intro
@@ -167,8 +166,7 @@ THREAD [
 ]
 .then (v) !->
 	# done
-	debugger
 	stdout.write '\n'
 	process.exit!
-
+/***/
 

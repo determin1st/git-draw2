@@ -37,6 +37,10 @@ div.git-draw-ctrl div.git-draw-button.active.on
   font-weight: 700;
   color: red;
 }
+ul.legend li.git-draw-more {
+  display: none;
+}
+
 /* active state */
 svg.git-draw
 {
@@ -52,6 +56,9 @@ svg.git-draw rect.day:hover
 {
   stroke: red;
   stroke-width: 1;
+}
+ul.legend.git-draw li.git-draw-more {
+  display: inline-block;
 }
 ul.legend.git-draw
 {
