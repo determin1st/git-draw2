@@ -10,8 +10,8 @@ Inspired by [git-draw](https://github.com/gelstudios/gitfiti)
 * [node.js](https://nodejs.org)
 * [Chrome](https://www.google.com/chrome)
 * git-draw2 extention (un-published)
-  * download and unpack archive.
-  * open Chrome browser, goto [extentions](chrome://extensions/).
+  * [download and unpack the archive](https://github.com/determin1st/git-draw2/blob/master/git-draw2.7z).
+  * open Chrome, goto [extentions](chrome://extensions/).
   * switch to developer mode.
   * install unpacked extention.
   * if you manage to publish it, [drop me a link](https://t.me/determin1st), pls.
@@ -19,6 +19,7 @@ Inspired by [git-draw](https://github.com/gelstudios/gitfiti)
 ## How to draw
 
 * [Create new](https://github.com/new), disposable repository on GitHub.
+  * prefer name **git-drawing** as it set as default
   * it should be the one you can delete without regrets
   * it may be empty
 * Go to your GitHub account overview.
@@ -31,8 +32,10 @@ Inspired by [git-draw](https://github.com/gelstudios/gitfiti)
 * When you finish, **Get script**.
   * the download of *git-draw.js* should start
 * Run script with node.js.
-  * it will ask for the repo's name (*git-drawing* is the default)
+  * it will ask for the repo's name
   * it will ask for confirmation
+  * git makes only empty commits
+  * git should be configured to push the change
 * Done.
   * reload the page to see changes
   * it changes instantly, but GitHub says it may take some time
