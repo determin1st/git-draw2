@@ -27,7 +27,7 @@ Inspired by [git-draw](https://github.com/ben174/git-draw)
   * *it will work only with owner's account*
 * Use extention to **Draw**.
   * *select color from the legend and draw with your pointer*
-  * *if some color doesn't apply properly, increase it's opacity*
+  * *if some color doesn't apply properly, apply it incrementally*
   * *button works as a reset switch*
 * When you finish, **Get script**.
   * *the download of **git-draw.js** should start*
