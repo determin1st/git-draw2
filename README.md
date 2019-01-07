@@ -11,7 +11,7 @@ Inspired by [git-draw](https://github.com/ben174/git-draw)
 * [Chrome](https://www.google.com/chrome)
 * this extention (un-published)
   * [download](https://github.com/determin1st/git-draw2/blob/master/git-draw2.7z) and unpack the archive
-  * open Chrome and goto extentions, *chrome://extensions*
+  * open Chrome and goto extentions, ***chrome://extensions***
   * switch to developer mode
   * install unpacked extention
   * if you manage to publish it, [drop me a link](https://t.me/determin1st), pls
